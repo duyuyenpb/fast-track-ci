@@ -48,3 +48,12 @@ Ensure you have [Docker Desktop](https://www.docker.com/products/docker-desktop)
 3. **Run tests:**
    ```bash
    pytest -v
+
+## 📂 Project Structure
+
+```text
+├── .github/workflows/  # CI/CD Configuration (GitHub Actions)
+├── tests/              # Test Scripts
+├── Dockerfile          # Container Configuration
+├── requirements.txt    # Python Dependencies
+└── README.md           # Documentation
